@@ -1,6 +1,6 @@
 {
   "name": "@topplethenun/eslint-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "ESLint config for Richard Harrah's projects",
   "author": "Richard Harrah",
   "license": "MIT",
