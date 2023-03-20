@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "config:js-lib",
+    "group:linters",
+    "group:test",
+    "npm:unpublishSafe"
+  ],
+  "prCreation": "not-pending"
+}
