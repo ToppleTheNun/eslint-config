@@ -5,6 +5,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 5.55.0
   '@typescript-eslint/parser': 5.55.0
   bumpp: ^9.0.0
+  clean-publish: ^4.1.1
   eslint: 8.36.0
   eslint-plugin-simple-import-sort: 10.0.0
   husky: ^8.0.3
@@ -21,6 +22,7 @@ dependencies:
 devDependencies:
   '@antfu/ni': 0.20.0
   bumpp: 9.0.0
+  clean-publish: 4.1.1
   eslint: 8.36.0
   husky: 8.0.3
   is-ci: 3.0.1
@@ -339,6 +341,17 @@ packages:
   /ci-info/3.8.0:
     resolution: {integrity: sha512-eXTggHWSooYhq49F2opQhuHWgzucfF2YgODK4e1566GQs5BIfP30B0oenwBJHfWxAs2fyPB1s7Mg949zLf61Yw==}
     engines: {node: '>=8'}
+    dev: true
+
+  /clean-publish/4.1.1:
+    resolution: {integrity: sha512-111O3MNk6x/dAbHZwG+iRZ4AYwpKqc7Qp1MarFhE1KtQIp9m9TkDuI+hedn7qgeFnLgSw3ItgEnHNwvhc7SmGg==}
+    engines: {node: '>= 16.0.0'}
+    hasBin: true
+    dependencies:
+      cross-spawn: 7.0.3
+      fast-glob: 3.2.12
+      lilconfig: 2.1.0
+      micromatch: 4.0.5
     dev: true
 
   /color-convert/2.0.1:
@@ -687,6 +700,11 @@ packages:
     dependencies:
       prelude-ls: 1.2.1
       type-check: 0.4.0
+
+  /lilconfig/2.1.0:
+    resolution: {integrity: sha512-utWOt/GHzuUxnLKxB6dk81RoOeoNeHgbrXiuGk4yyF5qlRz+iIVWu56E2fqGHFrXz0QNUhLB/8nKqvRH66JKGQ==}
+    engines: {node: '>=10'}
+    dev: true
 
   /locate-path/6.0.0:
     resolution: {integrity: sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==}

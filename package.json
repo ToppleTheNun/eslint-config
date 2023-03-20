@@ -38,6 +38,7 @@
   "devDependencies": {
     "@antfu/ni": "0.20.0",
     "bumpp": "^9.0.0",
+    "clean-publish": "^4.1.1",
     "eslint": "8.36.0",
     "husky": "^8.0.3",
     "is-ci": "^3.0.1",
