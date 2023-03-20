@@ -47,7 +47,8 @@
     "typescript": "4.9.5"
   },
   "publishConfig": {
-    "directory": "package"
+    "directory": "package",
+    "access": "public"
   },
   "clean-publish": {
     "withoutPublish": true,
