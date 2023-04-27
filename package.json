@@ -37,11 +37,11 @@
   },
   "devDependencies": {
     "@antfu/ni": "0.20.0",
-    "bumpp": "^9.0.0",
-    "clean-publish": "^4.1.1",
+    "bumpp": "9.0.0",
+    "clean-publish": "4.1.1",
     "eslint": "8.36.0",
-    "husky": "^8.0.3",
-    "is-ci": "^3.0.1",
+    "husky": "8.0.3",
+    "is-ci": "3.0.1",
     "prettier": "2.8.4",
     "prettier-plugin-pkg": "0.17.1",
     "typescript": "4.9.5"
