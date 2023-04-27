@@ -5,7 +5,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 5.55.0
   '@typescript-eslint/parser': 5.55.0
   bumpp: ^9.0.0
-  clean-publish: ^4.1.1
+  clean-publish: ^4.2.0
   eslint: 8.36.0
   eslint-plugin-simple-import-sort: 10.0.0
   husky: ^8.0.3
@@ -22,7 +22,7 @@ dependencies:
 devDependencies:
   '@antfu/ni': 0.20.0
   bumpp: 9.0.0
-  clean-publish: 4.1.1
+  clean-publish: 4.2.0
   eslint: 8.36.0
   husky: 8.0.3
   is-ci: 3.0.1
@@ -343,8 +343,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /clean-publish/4.1.1:
-    resolution: {integrity: sha512-111O3MNk6x/dAbHZwG+iRZ4AYwpKqc7Qp1MarFhE1KtQIp9m9TkDuI+hedn7qgeFnLgSw3ItgEnHNwvhc7SmGg==}
+  /clean-publish/4.2.0:
+    resolution: {integrity: sha512-dqZF5y6KtlkYhbnJoXiOCP4L1TPdI7HtuDysslUrbI8vLPu65ZjVO3pu5xp4qH0X2cWdDN/La04woe6fg4LNSw==}
     engines: {node: '>= 16.0.0'}
     hasBin: true
     dependencies:
