@@ -4,7 +4,7 @@
   "description": "ESLint config for Richard Harrah's projects",
   "author": "Richard Harrah",
   "license": "MIT",
-  "packageManager": "pnpm@7.27.0",
+  "packageManager": "pnpm@7.33.6",
   "engines": {
     "node": "^14 || ^16 || >=18"
   },
